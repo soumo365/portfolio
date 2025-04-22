@@ -1,0 +1,63 @@
+@media(max-width:1399px) {
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-2,
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-1 {
+        font-size: 60px !important;
+    }
+}
+
+@media(max-width:1199px) {
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-2,
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-1 {
+        font-size: 50px !important;
+    }
+}
+
+@media(max-width:991px) {
+    .myimg {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        height: 200px;
+        max-width: auto;
+        width: auto;
+    }
+    .banner-one-main-wrapper .row>div:nth-child(1) {
+        order: 2;
+    }
+    .banner-one-main-wrapper .row>div:nth-child(2) {
+        order: 1;
+    }
+    .tmp-banner-one-area {
+        padding-bottom: 0;
+    }
+    .banner-one-main-wrapper .banner-right-content img {
+        max-width: 463px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 70px;
+        margin: auto;
+    }
+}
+
+@media(max-width:767px) {
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-2,
+    .banner-one-main-wrapper .banner-right-content .banner-big-text-1 {
+        font-size: 37px !important;
+    }
+    .banner-one-main-wrapper .banner-right-content img {
+        max-width: 344px;
+        height: auto;
+        object-fit: contain;
+        margin-right: 70px;
+        margin: auto;
+    }
+    .logo h4 {
+        margin-bottom: 0;
+        font-family: "Allura", cursive;
+        font-size: 56.4px;
+    }
+    .latest-portfolio-area.custom-column-grid.tmp-section-gapTop {
+        padding-bottom: 67px !important;
+    }
+}
